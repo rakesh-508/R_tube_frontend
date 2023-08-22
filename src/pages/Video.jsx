@@ -4,8 +4,8 @@ import ThumbUpOutlinedIcon from "@mui/icons-material/ThumbUpOutlined";
 import ThumbDownOffAltOutlinedIcon from "@mui/icons-material/ThumbDownOffAltOutlined";
 import ReplyOutlinedIcon from "@mui/icons-material/ReplyOutlined";
 import AddTaskOutlinedIcon from "@mui/icons-material/AddTaskOutlined";
- import Comments from "../Comments";
-import Card from "../Card";
+ import Comments from "../Components/Comments";
+import Card from "../Components/Card";
 
 const Container = styled.div`
   display: flex;
@@ -112,7 +112,7 @@ const Video = () => {
           <iframe
             width="100%"
             height="500"
-            src="https://www.youtube.com/embed/k3Vfj-e1Ma4"
+            // src="https://www.youtube.com/embed/k3Vfj-e1Ma4"
             
             title="YouTube video player"
             frameborder="0"

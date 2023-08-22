@@ -4,9 +4,9 @@ import { Navbar } from "./Components/Navbar";
 import { LightTheme, darkTheme } from "./Utils/Theme";
 import { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Signin from "./Components/pages/Signin"
-import Home from "./Components/pages/Home";
-import Video from "./Components/pages/Video";
+import Signin from "./pages/Signin";
+import Home from "./pages/Home";
+import Video from "./pages/Video";
 const Container = styled.div`
   display: flex;
 `;
